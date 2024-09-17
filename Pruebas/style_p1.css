@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    background: #4a465b;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.contenedor .post{
+    width: 50%;
+}
+
+header{
+    background-color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    background-color:grey;
+    padding: 10px;
+    color: #fff;
+}
+.post{
+    padding: 10px;
+}
+.post p{
+    padding: 2px;
+}
+
+aside{
+    position: fixed;
+    top: 12%;
+    width: 30%;
+    left: 59%;
+}
+aside hr{
+    width: 250px;
+}
+aside .hr1{
+    width: 200px;
+    color:  #e28324;
+}
+aside .widget{
+    margin-bottom: 20px;
+}
+aside .widget .title{
+    color: #e28324;
+    border-bottom: ipx solid #e28324;
+    margin-bottom: 10px;
+}
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+    border-bottom: px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+}
+aside .widget ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+aside .widget ul li a:hover{
+    color: #ff8398;
+}
+aside .widget p{
+    line-height: 25px;
+}
+footer{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: #00000062;
+    color: #fff;
+    padding: 10px 0;
+}
+

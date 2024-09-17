@@ -1,0 +1,123 @@
+/* Comentario */
+
+body{
+    font: 1em/1.3arial,helvetica,sans-serif;
+}
+
+.primero{
+    background-color: red;
+}
+
+#segundo{
+    background-color: aquamarine;
+}
+
+head{
+    p{
+        font: 1em/1.3 Arial,Helvetica,sans-serif;
+        color: #555;
+    }
+}
+
+#parrafo1 {
+    color:  #336699;
+        
+}
+
+
+a{
+    color: #CC3300;
+}
+
+#parrafo1 em {
+    background: #FFFFCC;
+    padding: .1em; 
+}
+
+.especial {
+    background: #FFCC99;
+    border: 1px solid #FF9900;
+    padding: .1em;
+}
+.parrafo2 span {
+    font-weight: bold;
+}
+
+.ejemplo{
+    background-color: lightgrey;
+	width: 30%;
+    border: 10px solid rgb(12, 195, 12);
+    padding: 50px;
+    text-align: justify;
+    color: blue;
+    /*float: left;*/
+}
+s
+.articulo1{
+    background-color: lightgrey;
+	width: 20%;
+    border: 10px solid rgb(12, 195, 12);
+    padding: 50px;
+    text-align: justify;
+    color: tomato;
+    margin-top: 20px;
+    /*float: left;*/
+}
+
+.main1{
+    background-color: lightgrey;
+	width: 20%;
+    border: 10px solid rgb(12, 195, 12);
+    padding: 50px;
+    text-align: justify;
+    color: yellow;
+    margin-top: 20px;
+    /*float: left;*/
+}
+
+.linea1{
+    background-color: #FFCC99;
+}
+
+.bloque1{
+    background-color: #CC3300;
+}
+
+.oculto{
+    display: none;
+}
+
+.divstatic{
+    position: static;
+    border: #336699 solid 2px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.divrelative{
+    position: relative;
+    margin: 5%;
+    border: #336699 solid 2px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.divfixed1{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    border: #336699 solid 1px;
+    background-color: #FF9900;
+    margin-top: 10px;
+}
+
+.header1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border: #336699 solid 1px;
+    background-color: #FF9900;
+}
